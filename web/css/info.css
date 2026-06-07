@@ -1,0 +1,39 @@
+.info-container {
+    width: 85%;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.titre-section {
+    text-align: center;
+    font-size: 38px;
+    color: #004c4c;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.ligne-argument {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.argument {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    width: 32%;
+    transition: 0.3s;
+}
+
+.argument:hover {
+    transform: scale(1.05);
+}
+
+.argument .icone {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
